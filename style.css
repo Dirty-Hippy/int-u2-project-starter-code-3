@@ -5,13 +5,24 @@ header {
     height: 200px;
     
 }
+.navbar{
+    height:100px;
+    width: 1440px;
+    background-color:white;
+    cursor:pointer;
+    position:fixed;
+    margin:0;
+
+}
+
 
 .section {
     text-align:center;
 }
 .background{
-    z-index: -1;
+    z-index: -100;
     width: 1000px;
+    bottom:100px;
     position: relative;
 }
 ul{
