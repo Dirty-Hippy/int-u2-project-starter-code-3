@@ -1,23 +1,42 @@
 /* The code below makes the background of the header black and the font color of the title white. Change this to match what you want for your website. */
 header {
-    padding: 128px 16px;
-    background-image: url('C:\Users\Nextech\.vscode\int-u2-project-starter-code-3\Images\ivy.jpg');
+    text-align: center;
+    z-value: 1;
+    height: 200px;
 }
 
 .section {
     text-align:center;
 }
+.background{
+    z-index: -1;
+    width: 1000px;
+    bottom: 100px;
+    position: relative;
+}
+ul{
+    text-align: left;
+}
 .images{
-    width: 150px;
-    height: 100px;
+    width: 400px;
+    height: 250px;
+    border: solid darkblue;
+    border-radius: 30%;
+
 
 }
+.graphs{
+    width: 400px;
+    height: 250px;
+}
+
+
 .section{
-    border: 4px dashed green;
+    border: 4px dashed darkblue;
     margin: 50px;
 }
 body{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-image: url(C:\Users\Nextech\.vscode\int-u2-project-starter-code-3\Images\ivy.jpg);
+    color: darkgreen;
 
 }
