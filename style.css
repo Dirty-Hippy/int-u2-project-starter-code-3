@@ -1,7 +1,7 @@
 /* The code below makes the background of the header black and the font color of the title white. Change this to match what you want for your website. */
 header {
-    background-image:url("C:\Users\Nextech\.vscode\int-u2-project-starter-code-3\Images\ivy.jpg") ;
     padding: 128px 16px;
+    background-image: url('C:\Users\Nextech\.vscode\int-u2-project-starter-code-3\Images\ivy.jpg');
 }
 
 .section {
