@@ -1,8 +1,9 @@
 /* The code below makes the background of the header black and the font color of the title white. Change this to match what you want for your website. */
 header {
     text-align: center;
-    z-value: 1;
+    z-index: 1;
     height: 200px;
+    
 }
 
 .section {
@@ -11,7 +12,6 @@ header {
 .background{
     z-index: -1;
     width: 1000px;
-    bottom: 100px;
     position: relative;
 }
 ul{
@@ -38,5 +38,9 @@ ul{
 body{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: darkgreen;
+    background-image:image('Images\leaves.jpg');
 
+}
+footer{
+    background-color: lightblue;
 }
