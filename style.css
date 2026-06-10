@@ -12,13 +12,25 @@ header {
     position:fixed;
     margin:0px;
     border:0px;
-    
+    background-color:white ;
+    opacity:70%;
 
+}
+a{
+    color:darkgreen;
+    text-decoration: none;
+}
+a :hover{
+    font-size:larger;
 }
 
 
-.section {
+
+.header1{
+    flex: 1 1 600px;
     text-align:center;
+
+
 }
 .background{
     z-index: -100;
@@ -34,6 +46,7 @@ ul{
     height: 250px;
     border: solid darkblue;
     border-radius: 30%;
+    margin:20px;
 
 
 }
@@ -41,11 +54,20 @@ ul{
     width: 400px;
     height: 250px;
 }
+.text{
+    margin-left:20px;
+    flex: 1 1 400px;
+}
+.container{
+    display: flex;
+}
 
 
 .section{
     border: 4px dashed darkblue;
     margin:50px;
+    /*flex-wrap:wrap; */
+    align-items:center;
 }
 body{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -59,7 +81,17 @@ footer{
     background-color: white;
     align-items:flex-end;
 }
+footer :hover{
+    transform:scale(1.2);
+}
 .footerimg{
     width:50px;
     height:50px;
+    cursor:pointer;
+    
 }
+html{
+    scroll-behavior:smooth;
+}
+
+
